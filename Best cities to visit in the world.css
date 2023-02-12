@@ -1,0 +1,60 @@
+h1{
+    background-color: #ff0000;
+    color:#0000ff;
+    text-align:center;
+}
+body{
+    background-color: #00ff00;
+}
+a:link{
+    color:#ff0000;
+}
+a:visited{
+    color:#ff0f0f;
+}
+a:hover{
+    color:#ffff00;
+}
+a:active{
+    color:#ff00ff;
+}
+img{
+    display:block;
+    width: 1020px;
+    height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#searchbar{
+    margin-left: 20%;
+    padding:15px;
+    border-radius: 10px;
+  }
+
+  input[type=text] {
+     width: 40%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+  }
+
+  /* When the input field gets focus,
+       change its width to 100% */
+  input[type=text]:focus {
+    width: 70%;
+  }
+
+ #list{
+   font-size:  1.5em;
+   margin-left: 90px;
+  }
+
+.places{
+  display: list-item;    
+ }
+ a{
+    text-align: left;
+    font-size: 20px;
+ } 
+ p{
+    font-size: medium;
+ }
